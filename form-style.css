@@ -1,0 +1,185 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url("./images/burger3.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo */
+.logo-img{
+    width: 45%;
+    margin: -3% 0% 20% 0%;
+}
+/* Logo end */
+
+
+/* ******************** Create Account Form *************************************/
+
+.form-body{
+    padding: 1%;
+    background-color: #ffe4c46b;
+    box-shadow: inset 5px 9px 127px #fed892;
+    width: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    margin: 2%;
+    -webkit-border-radius: 20px;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0% 0% -15% 0%;
+}
+
+.inputs-div{
+    width: 80%;
+}
+
+.radio-input{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.form-check{
+margin: 0% 7% 0% 7%;
+}
+
+
+.profile-pic {
+    width: 100%;
+    height: 240px;
+    border: 2px solid black;
+    /* border-radius: 50%; */
+}
+
+.profile-align {
+        margin: 0% 0% 3% 0%;
+        cursor: pointer;
+        width: 100%;
+        /* height: 211px; */
+}
+
+.form-floating{
+    width: 100%;
+}
+
+.form-floating input{
+    color: white;
+    font-size: 20;
+    background-color: rgba(59, 57, 55, 0.486) !important;
+    
+}
+.form-floating p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.btn{
+    margin: 0% 2% 0% 4%;
+    display: inline-block !important;
+    width: 42%;
+    background-color: darkgoldenrod;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+}
+.btn-success, .btn-primary{
+    margin: 0% 0% 4% 0%;
+}
+.btn-outline-primary{
+    border: 5px solid #1c6efd !important;
+    font-weight: bold !important ;
+}
+
+.btn-warning {
+    font-size: 25px;
+    color: rgb(3, 3, 3);
+    background-color: #ffc107a6;
+    border-color: #ffc107;
+}
+
+
+/* input{
+    height: 35px !important;
+} */
+
+input:focus{
+    font-size: 20px !important;
+    color: white !important;
+}
+
+.login-width{
+    margin-top: 2%;
+    text-align: center;
+    color: rgb(33, 49, 194);
+}
+.forgate-pass{
+    font-weight: bold;
+    font-size: 21px;
+    color: rgb(33, 49, 194);
+    text-align: center;
+    margin: 3% 0% -2% 0%;
+    cursor: pointer;
+}
+.logos{
+    text-align: center;
+    margin: 2% 0% 0% 0%;
+}
+.google-logo{
+    width: 10%;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.fb-logo{
+    width: 17%;
+    cursor: pointer;
+}
+
+.input-file{
+    display: none;
+}
+.input-img{
+    border: 2px solid black;
+    width: 90%;
+    margin: 2%;
+    height: 200px;
+
+}
+/* ******************** Create Account Form End *************************************/
+
+
+
+
+
+
+/* ******************** Login Form *************************************/
+.login-form-body{
+    background: url(./images/burgers.jpg) no-repeat;
+    background-size: cover;
+}
+/* ******************** Login Form *************************************/
